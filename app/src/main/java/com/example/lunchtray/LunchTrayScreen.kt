@@ -91,7 +91,6 @@ fun LunchTrayApp(
     backStateEntry?.destination?.route ?: LunchTrayScreen.Start.name
     )
 
-    // Create ViewModel
     val viewModel: OrderViewModel = viewModel()
 
     Scaffold(
